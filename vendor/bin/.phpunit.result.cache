@@ -1,0 +1,1 @@
+{"version":1,"defects":{"App\\Tests\\ConnectionTest::testMySQLConnection":8,"App\\Tests\\ConnectionTest::testMongodbConnection":8},"times":{"App\\Tests\\ConnectionTest::testMySQLConnection":0.031,"App\\Tests\\ConnectionTest::testMongodbConnection":0.039}}
