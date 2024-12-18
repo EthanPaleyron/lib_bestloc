@@ -1,5 +1,5 @@
 <?php
-namespace App\Entity;
+namespace App\entity;
 
 use MongoDB\BSON\Persistable;
 use MongoDB\BSON\ObjectId;

@@ -1,18 +1,12 @@
 <?php
-
 namespace App\entity;
 
-final class Billing
+class Billing
 {
     private int $id;
     private string $contract_id;
     private float $amount;
 
-    public function __construct(string $contract_id)
-    {
-        $this->setContractId($contract_id);
-        $this->setAmount($contract_id);
-    }
     public function setId(int $id): void
     {
         $this->id = $id;

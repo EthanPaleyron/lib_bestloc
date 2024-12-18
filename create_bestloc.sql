@@ -18,3 +18,7 @@ CREATE TABLE billing (
     amount DECIMAL(10, 2) NOT NULL,
     CONSTRAINT fk_billing_contract_id FOREIGN KEY (contract_id) REFERENCES contract(id)
 ) ENGINE = InnoDB;
+
+ALTER TABLE billing
+  ADD CONSTRAINT billing_ibfk_1 FOREIGN KEY (contract_id) REFERENCES contract (id) ON DELETE CASCADE ON UPDATE RESTRICT;
+COMMIT;

@@ -1,78 +1,72 @@
 <?php
+namespace App\entity;
 
 class Contract
 {
     private int $id;
-    private string $vehiculeUid;
-    private string $customerUid;
-    private DateTime $signDate;
-    private DateTime $locBeginDate;
-    private DateTime $locEndDate;
-    private ?DateTime $returningDate;
+    private string $vehicule_uid;
+    private string $customer_uid;
+    private string $sign_date;
+    private string $loc_begin_date;
+    private string $loc_end_date;
+    private ?string $returning_date;
     private float $price;
 
-    public function __construct(string $vehiculeUid, string $customerUid, DateTime $signDate, DateTime $locBeginDate, DateTime $locEndDate, ?DateTime $returningDate, float $price)
+    public function setId($id): void
     {
-        $this->setVehiculeUid($vehiculeUid);
-        $this->setCustomerUid($customerUid);
-        $this->setSignDate($signDate);
-        $this->setLocBeginDate($locBeginDate);
-        $this->setLocEndDate($locEndDate);
-        $this->setReturningDate($returningDate);
-        $this->setPrice($price);
+        $this->id = $id;
     }
-
     public function getId(): int
     {
         return $this->id;
     }
-    public function setVehiculeUid(string $vehiculeUid): void
+    public function setVehiculeUid(string $vehicule_uid): void
     {
-        $this->vehiculeUid = $vehiculeUid;
+        $this->vehicule_uid = $vehicule_uid;
     }
     public function getVehiculeUid(): string
     {
-        return $this->vehiculeUid;
+        return $this->vehicule_uid;
     }
-    public function setCustomerUid(string $customerUid): void
+    public function setCustomerUid(string $customer_uid): void
     {
-        $this->customerUid = $customerUid;
+        $this->customer_uid = $customer_uid;
     }
     public function getCustomerUid(): string
     {
-        return $this->customerUid;
+        return $this->customer_uid;
     }
-    public function setSignDate(DateTime $signDate): void
+    public function setSignDate(string $sign_date): void
     {
-        $this->signDate = $signDate;
+        $this->sign_date = $sign_date;
     }
-    public function getSignDate(): DateTime
+    public function getSignDate(): string
     {
-        return $this->signDate;
+        return $this->sign_date;
     }
-    public function setLocBeginDate(DateTime $locBeginDate): void
+    public function setLocBeginDate(string $loc_begin_date): void
     {
-        $this->locBeginDate = $locBeginDate;
+        $this->loc_begin_date = $loc_begin_date;
     }
-    public function getLocBeginDate(): DateTime
+    public function getLocBeginDate(): string
     {
-        return $this->locBeginDate;
+        return $this->loc_begin_date;
     }
-    public function setLocEndDate(DateTime $locEndDate): void
+    public function setLocEndDate(string $loc_end_date): void
     {
-        $this->locEndDate = $locEndDate;
+        $this->loc_end_date = $loc_end_date;
     }
-    public function getLocEndDate(): DateTime
+    public function getLocEndDate(): string
     {
-        return $this->locEndDate;
+        return $this->loc_end_date;
     }
-    public function setReturningDate(?DateTime $returningDate): void
+    public function setReturningDate(?string $returning_date): void
     {
-        $this->returningDate = $returningDate;
+        $this->returning_date = $returning_date;
     }
-    public function getReturningDate(): ?DateTime
+    public function getReturningDate(): ?string
     {
-        return $this->returningDate;
+        return $this->returning_date;
     }
     public function setPrice(float $price): void
     {
