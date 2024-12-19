@@ -62,4 +62,18 @@ final class BillingServiceTest extends TestCase
         $result = $BillingRepository->deleteBilling($id);
         $this->assertTrue($result);
     }
+    public function testgetBillingFromContracts(): void
+    {
+        $billing = new BillingRepository();
+        $id_contract = 3;
+        $results = $billing->getBillingFromContracts($id_contract);
+
+        $this->assertNotNull($results);
+        $this->assertIsArray($results);
+        $this->assertNotEmpty($results);
+
+        foreach ($results as $item) {
+            $this->assertInstanceOf('App\Entity\Billing', $item);
+        }
+    }
 }

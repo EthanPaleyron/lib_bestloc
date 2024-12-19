@@ -7,14 +7,14 @@ use PHPUnit\Framework\TestCase;
 
 final class ContractServiceTest extends TestCase
 {
-    public function testfindContractById(): void
+    public function testFindContractById(): void
     {
         $contract = new ContractRepository();
         $id = 2;
         $result = $contract->findContractById($id);
         $this->assertNotNull($result);
     }
-    public function testgetAllContracts(): void
+    public function testGetAllContracts(): void
     {
         $contract = new ContractRepository();
         $results = $contract->getAllContracts();
@@ -27,7 +27,7 @@ final class ContractServiceTest extends TestCase
             $this->assertInstanceOf('App\Entity\Contract', $item);
         }
     }
-    public function testinsertContract(): void
+    public function testInsertContract(): void
     {
         $contractRepository = new ContractRepository();
         $id = 3;
@@ -81,5 +81,61 @@ final class ContractServiceTest extends TestCase
         $id = 2;
         $result = $contractRepository->deleteContract($id);
         $this->assertTrue($result);
+    }
+    public function testFindContractFromCustomerId(): void
+    {
+        $contractRepository = new ContractRepository();
+        $id = 3;
+        $result = $contractRepository->findContractFromCustomerId($id);
+        $this->assertNotNull($result);
+    }
+    public function testGetCurrentRentals(): void
+    {
+        $contractRepository = new ContractRepository();
+        $id = 3;
+        $result = $contractRepository->getCurrentRentals($id);
+        $this->assertNotNull($result);
+    }
+    public function testGetLateRentals(): void
+    {
+        $contractRepository = new ContractRepository();
+        $result = $contractRepository->getLateRentals();
+        $this->assertNotNull($result);
+    }
+    public function testGetLateCountBetweenTwoDates(): void
+    {
+        $contractRepository = new ContractRepository();
+        $date1 = '2023-06-01';
+        $date2 = '2024-06-01';
+        $result = $contractRepository->getCountLateBetweenTwoDates($date1, $date2);
+
+        $this->assertNotFalse($result);
+    }
+    public function testGetCountLateMeansPerCustomer(): void
+    {
+        $contractRepository = new ContractRepository();
+        $result = $contractRepository->getCountLateMeansPerCustomer();
+
+        $this->assertNotFalse($result);
+    }
+    public function testFindContractByIdVehicule(): void
+    {
+        $contract = new ContractRepository();
+        $vehicule_uid = 2;
+        $result = $contract->findContractByIdVehicule($vehicule_uid);
+        $this->assertNotNull($result);
+    }
+    public function testGetAllContractsByVehiculeOrCustomer(): void
+    {
+        $contract = new ContractRepository();
+        $results = $contract->getAllContractsByVehiculeOrCustomer();
+
+        $this->assertNotNull($results);
+        $this->assertIsArray($results);
+        $this->assertNotEmpty($results);
+
+        foreach ($results as $item) {
+            $this->assertInstanceOf('App\Entity\Contract', $item);
+        }
     }
 }

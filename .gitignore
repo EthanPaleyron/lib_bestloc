@@ -1,2 +1,3 @@
 # Exclude .idea folder for JetBrains IDEs (e.g., IntelliJ, WebStorm, PhpStorm)
 .idea/
+vendor/

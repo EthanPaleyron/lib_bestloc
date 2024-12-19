@@ -51,4 +51,13 @@ class BillingRepository
             ':id' => $id
         ]);
     }
+    public function getBillingFromContracts(int $contract_id): array // Pouvoir lister toutes les factures associées à une location.
+    {
+        $stmt = MySQLConnection::getInstance()->getConnection()->prepare("SELECT * FROM billing WHERE contract_id = :contract_id");
+        $stmt->execute([
+            ':contract_id' => $contract_id,
+        ]);
+        $stmt->setFetchMode(PDO::FETCH_CLASS, Billing::class);
+        return $stmt->fetchAll();
+    }
 }
