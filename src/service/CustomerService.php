@@ -16,9 +16,12 @@ class CustomerService
     public function find(string $id): ?Customer
     {
         $customer = $this->customer->findById($id);
-        // if (!$customer) {
-        //     $customer = null;
-        // }
+        return $customer;
+    }
+
+    public function findAll(): array
+    {
+        $customer = $this->customer->findAll();
         return $customer;
     }
 
