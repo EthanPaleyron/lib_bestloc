@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Tests;
+namespace BestLoc\Tests;
 
-use App\repository\BillingRepository;
+use BestLoc\repository\BillingRepository;
 use PHPUnit\Framework\TestCase;
 
 final class BillingServiceTest extends TestCase
@@ -24,7 +24,7 @@ final class BillingServiceTest extends TestCase
         $this->assertNotEmpty($results);
 
         foreach ($results as $item) {
-            $this->assertInstanceOf('App\Entity\Billing', $item);
+            $this->assertInstanceOf('BestLoc\Entity\Billing', $item);
         }
     }
     public function testinsertBilling(): void
@@ -73,7 +73,7 @@ final class BillingServiceTest extends TestCase
         $this->assertNotEmpty($results);
 
         foreach ($results as $item) {
-            $this->assertInstanceOf('App\Entity\Billing', $item);
+            $this->assertInstanceOf('BestLoc\Entity\Billing', $item);
         }
     }
 }

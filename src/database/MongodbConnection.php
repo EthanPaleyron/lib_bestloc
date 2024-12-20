@@ -1,5 +1,5 @@
 <?php
-namespace App\database;
+namespace BestLoc\database;
 
 use Dotenv\Dotenv;
 use MongoDB\Client;

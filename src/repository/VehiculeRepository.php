@@ -1,8 +1,8 @@
 <?php
-namespace App\repository;
+namespace BestLoc\repository;
 
-use App\database\MongodbConnection;
-use App\entity\Vehicule;
+use BestLoc\database\MongodbConnection;
+use BestLoc\entity\Vehicule;
 use MongoDB\Collection;
 use MongoDB\BSON\ObjectId;
 

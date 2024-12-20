@@ -1,8 +1,8 @@
 <?php
-namespace App\repository;
+namespace BestLoc\repository;
 
-use App\database\MongodbConnection;
-use App\entity\Customer;
+use BestLoc\database\MongodbConnection;
+use BestLoc\entity\Customer;
 use MongoDB\Collection;
 
 class CustomerRepository

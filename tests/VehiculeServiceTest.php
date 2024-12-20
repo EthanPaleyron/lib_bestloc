@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Tests;
+namespace BestLoc\Tests;
 
-use App\repository\VehiculeRepository;
-use App\entity\Vehicule;
+use BestLoc\repository\VehiculeRepository;
+use BestLoc\entity\Vehicule;
 use PHPUnit\Framework\TestCase;
 
 class VehiculeServiceTest extends TestCase

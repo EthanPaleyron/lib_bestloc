@@ -1,8 +1,8 @@
 <?php
-namespace App\Service;
+namespace BestLoc\Service;
 
-use App\Entity\Billing;
-use App\Repository\BillingRepository;
+use BestLoc\Entity\Billing;
+use BestLoc\Repository\BillingRepository;
 
 class BillingService
 {

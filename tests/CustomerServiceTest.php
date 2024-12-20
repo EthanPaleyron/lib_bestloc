@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Tests;
+namespace BestLoc\Tests;
 
-use App\repository\CustomerRepository;
-use App\entity\Customer;
+use BestLoc\repository\CustomerRepository;
+use BestLoc\entity\Customer;
 use PHPUnit\Framework\TestCase;
 
 class CustomerServiceTest extends TestCase

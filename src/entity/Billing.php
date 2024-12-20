@@ -1,5 +1,5 @@
 <?php
-namespace App\entity;
+namespace BestLoc\entity;
 
 class Billing
 {

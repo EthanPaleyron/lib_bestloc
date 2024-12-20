@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Tests;
+namespace BestLoc\Tests;
 
-use App\repository\ContractRepository;
+use BestLoc\repository\ContractRepository;
 use PHPUnit\Framework\TestCase;
 
 final class ContractServiceTest extends TestCase
@@ -24,7 +24,7 @@ final class ContractServiceTest extends TestCase
         $this->assertNotEmpty($results);
 
         foreach ($results as $item) {
-            $this->assertInstanceOf('App\Entity\Contract', $item);
+            $this->assertInstanceOf('BestLoc\Entity\Contract', $item);
         }
     }
     public function testInsertContract(): void
@@ -133,7 +133,7 @@ final class ContractServiceTest extends TestCase
         $this->assertNotEmpty($results);
 
         foreach ($results as $item) {
-            $this->assertInstanceOf('App\Entity\Contract', $item);
+            $this->assertInstanceOf('BestLoc\Entity\Contract', $item);
         }
     }
 }

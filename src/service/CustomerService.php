@@ -1,8 +1,8 @@
 <?php
-namespace App\Service;
+namespace BestLoc\Service;
 
-use App\Entity\Customer;
-use App\Repository\CustomerRepository;
+use BestLoc\Entity\Customer;
+use BestLoc\Repository\CustomerRepository;
 
 class CustomerService
 {

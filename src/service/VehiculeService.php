@@ -1,8 +1,8 @@
 <?php
-namespace App\Service;
+namespace BestLoc\Service;
 
-use App\Entity\Vehicule;
-use App\Repository\VehiculeRepository;
+use BestLoc\Entity\Vehicule;
+use BestLoc\Repository\VehiculeRepository;
 
 class VehiculeService
 {

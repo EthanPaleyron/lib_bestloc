@@ -1,8 +1,8 @@
 <?php
-namespace App\Service;
+namespace BestLoc\Service;
 
-use App\Entity\Contract;
-use App\Repository\ContractRepository;
+use BestLoc\Entity\Contract;
+use BestLoc\Repository\ContractRepository;
 
 class ContractService
 {

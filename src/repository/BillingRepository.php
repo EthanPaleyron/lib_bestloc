@@ -1,9 +1,9 @@
 <?php
-namespace App\repository;
+namespace BestLoc\repository;
 
-use App\database\MySQLConnection;
+use BestLoc\database\MySQLConnection;
 use PDO;
-use App\entity\Billing;
+use BestLoc\entity\Billing;
 
 class BillingRepository
 {

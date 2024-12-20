@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Tests;
+namespace BestLoc\Tests;
 
-use App\database\MySQLConnection;
-use App\database\MongodbConnection;
+use BestLoc\database\MySQLConnection;
+use BestLoc\database\MongodbConnection;
 use PHPUnit\Framework\TestCase;
 
 final class ConnectionTest extends TestCase
