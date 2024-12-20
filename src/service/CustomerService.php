@@ -13,9 +13,9 @@ class CustomerService
         $this->customer = new CustomerRepository();
     }
 
-    public function find(string $email): ?Customer
+    public function find(string $id): ?Customer
     {
-        $customer = $this->customer->findByEmail($email);
+        $customer = $this->customer->findById($id);
         if (!$customer) {
             $customer = null;
         }

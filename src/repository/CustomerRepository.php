@@ -26,9 +26,9 @@ class CustomerRepository
         }
     }
 
-    public function findByEmail(string $email): Customer|null
+    public function findById(string $id): Customer|null
     {
-        $result = $this->collection->findOne(['email' => $email]);
+        $result = $this->collection->findOne(['_id' => $id]);
         return $result;
     }
 
