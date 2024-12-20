@@ -31,6 +31,11 @@ class CustomerRepository
         $result = $this->collection->findOne(['_id' => $id]);
         return $result;
     }
+    public function findAll(): array
+    {
+        $result = $this->collection->find()->toArray();
+        return $result;
+    }
 
     public function update(Customer $customer): bool
     {
