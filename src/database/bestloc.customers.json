@@ -1,0 +1,170 @@
+[{
+  "_id": {
+    "$oid": "67628a98f70f8304660363c0"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Lilian",
+  "last_name": "Ortega",
+  "address": "4 rue Casimir Périer",
+  "email": "lilian@areastudio.fr",
+  "password": "motdepasse1734516010",
+  "permit_number": "00000000"
+},
+{
+  "_id": {
+    "$oid": "67628a98f70f8304660363c3"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Ethan",
+  "last_name": "Paleyron",
+  "address": "Très loin",
+  "email": "epayleyron@edenschool.fr",
+  "password": "motdepasse1734516010",
+  "permit_number": "00000001"
+},
+{
+  "_id": {
+    "$oid": "67628a98f70f8304660363c4"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Joshua",
+  "last_name": "Jorge-Beau",
+  "address": "Moins loin",
+  "email": "jjorgebeau.pro@gmail.com",
+  "password": "motdepasse1734516010",
+  "permit_number": "00000002"
+},
+{
+  "_id": {
+    "$oid": "67629c94e8f64dd31b0d4120"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Lilian",
+  "last_name": "Ortega",
+  "address": "4 rue Casimir Périer",
+  "email": "lilian@areastudio.fr",
+  "password": "motdepassetrèscompliqué",
+  "permit_number": "00000000"
+},
+{
+  "_id": {
+    "$oid": "67629c94e8f64dd31b0d4123"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Ethan",
+  "last_name": "Paleyron",
+  "address": "Très loin",
+  "email": "epayleyron@edenschool.fr",
+  "password": "motdepassetrèscompliqué",
+  "permit_number": "00000001"
+},
+{
+  "_id": {
+    "$oid": "67629c94e8f64dd31b0d4124"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Joshua",
+  "last_name": "Jorge-Beau",
+  "address": "Moins loin",
+  "email": "jjorgebeau.pro@gmail.com",
+  "password": "motdepassetrèscompliqué",
+  "permit_number": "00000002"
+},
+{
+  "_id": {
+    "$oid": "67629d2a060d0f1c190278a0"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Lilian",
+  "last_name": "Ortega",
+  "address": "4 rue Casimir Périer",
+  "email": "lilian@areastudio.fr",
+  "password": "motdepassetrèscompliqué",
+  "permit_number": "00000000"
+},
+{
+  "_id": {
+    "$oid": "67629d2a060d0f1c190278a3"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Ethan",
+  "last_name": "Paleyron",
+  "address": "Très loin",
+  "email": "epayleyron@edenschool.fr",
+  "password": "motdepassetrèscompliqué",
+  "permit_number": "00000001"
+},
+{
+  "_id": {
+    "$oid": "67629d2a060d0f1c190278a4"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Joshua",
+  "last_name": "Jorge-Beau",
+  "address": "Moins loin",
+  "email": "jjorgebeau.pro@gmail.com",
+  "password": "motdepassetrèscompliqué",
+  "permit_number": "00000002"
+},
+{
+  "_id": {
+    "$oid": "6763f7ae94c614440e00ba72"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxDdXN0b21lcg==",
+      "subType": "80"
+    }
+  },
+  "first_name": "Vinvin",
+  "last_name": "Delabottedefoin",
+  "address": "Chateau de la botte de foin",
+  "email": "elwen@areastidio.fr",
+  "password": "$2y$10$Rg3v5uv4Y.1El237uelj1uoVrYY8tL.XXfOBfPYyDwd9XvpqUX0ne",
+  "permit_number": "0000003"
+}]

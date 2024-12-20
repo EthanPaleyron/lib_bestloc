@@ -1,0 +1,224 @@
+[{
+  "_id": {
+    "$oid": "6762a8c218a2321f35003980"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "Golf",
+  "brand": "VolksWagen",
+  "licence_plate": "BX-259-AN",
+  "informations": "C'est une break à Lyon !!!",
+  "km": "130000"
+},
+{
+  "_id": {
+    "$oid": "6762a8c318a2321f35003983"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "EXPERT",
+  "brand": "Peugeot",
+  "licence_plate": "TE2E75",
+  "informations": "Standard - Traction 1PL",
+  "km": "000005"
+},
+{
+  "_id": {
+    "$oid": "6762a8c318a2321f35003984"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "X",
+  "brand": "Tesla",
+  "licence_plate": "R0SIB1F",
+  "informations": "Trop viiiite !!!",
+  "km": "123456"
+},
+{
+  "_id": {
+    "$oid": "6762a99488513600be03da50"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "Golf",
+  "brand": "VolksWagen",
+  "licence_plate": "BX-259-AN",
+  "informations": "C'est une break à Lyon !!!",
+  "km": "1734524193"
+},
+{
+  "_id": {
+    "$oid": "6762a99488513600be03da53"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "EXPERT",
+  "brand": "Peugeot",
+  "licence_plate": "TE2E75",
+  "informations": "Standard - Traction 1PL",
+  "km": "1734524193"
+},
+{
+  "_id": {
+    "$oid": "6762a99488513600be03da54"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "X",
+  "brand": "Tesla",
+  "licence_plate": "R0SIB1F",
+  "informations": "Trop viiiite !!!",
+  "km": "1734524193"
+},
+{
+  "_id": {
+    "$oid": "6762bb565d1befebeb0e3083"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "EXPERT",
+  "brand": "Peugeot",
+  "licence_plate": "TE2E75",
+  "informations": "Standard - Traction 1PL",
+  "km": "000005"
+},
+{
+  "_id": {
+    "$oid": "6762bb565d1befebeb0e3084"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "X",
+  "brand": "Tesla",
+  "licence_plate": "R0SIB1F",
+  "informations": "Trop viiiite !!!",
+  "km": "123456"
+},
+{
+  "_id": {
+    "$oid": "6762bbe184f30c12c70e8000"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "Golf",
+  "brand": "VolksWagen",
+  "licence_plate": "BX-259-AN",
+  "informations": "C'est une break à Lyon !!!",
+  "km": "130000"
+},
+{
+  "_id": {
+    "$oid": "6762bbe184f30c12c70e8003"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "EXPERT",
+  "brand": "Peugeot",
+  "licence_plate": "TE2E75",
+  "informations": "Standard - Traction 1PL",
+  "km": "000005"
+},
+{
+  "_id": {
+    "$oid": "6762bbe184f30c12c70e8004"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "X",
+  "brand": "Tesla",
+  "licence_plate": "R0SIB1F",
+  "informations": "Trop viiiite !!!",
+  "km": "123456"
+},
+{
+  "_id": {
+    "$oid": "6762bd21c79ed8c9d20ef4b0"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "Golf",
+  "brand": "VolksWagen",
+  "licence_plate": "BX-259-AN",
+  "informations": "C'est une break à Lyon !!!",
+  "km": "130000"
+},
+{
+  "_id": {
+    "$oid": "6762bd21c79ed8c9d20ef4b3"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "EXPERT",
+  "brand": "Peugeot",
+  "licence_plate": "TE2E75",
+  "informations": "Standard - Traction 1PL",
+  "km": "000005"
+},
+{
+  "_id": {
+    "$oid": "6762bd21c79ed8c9d20ef4b4"
+  },
+  "__pclass": {
+    "$binary": {
+      "base64": "QXBwXEVudGl0eVxWZWhpY3VsZQ==",
+      "subType": "80"
+    }
+  },
+  "model": "X",
+  "brand": "Tesla",
+  "licence_plate": "R0SIB1F",
+  "informations": "Trop viiiite !!!",
+  "km": "123456"
+}]

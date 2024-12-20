@@ -118,7 +118,7 @@ class ContractRepository
     }
     public function getAllContractsByVehiculeOrCustomer(): array|false // Pouvoir récupérer tous les contrats regroupés par véhicules ou par client/cliente.
     {
-        $stmt = MySQLConnection::getInstance()->getConnection()->prepare("SELECT * FROM contract WHERE GROUP BY vehicule_uid, customer_uid");
+        $stmt = MySQLConnection::getInstance()->getConnection()->prepare("SELECT * FROM contract ORDER BY vehicule_uid, customer_uid");
         $stmt->execute();
         $stmt->setFetchMode(PDO::FETCH_CLASS, Contract::class);
         $data = $stmt->fetchAll();

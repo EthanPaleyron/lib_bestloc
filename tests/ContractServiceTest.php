@@ -30,17 +30,15 @@ final class ContractServiceTest extends TestCase
     public function testInsertContract(): void
     {
         $contractRepository = new ContractRepository();
-        $id = 3;
         $vehicule_uid = 'TEST001';
         $customer_uid = 'CUST001';
         $sign_date = '2023-06-01';
         $loc_begin_date = '2023-06-02';
         $loc_end_date = '2023-06-10';
         $returning_date = '2023-06-09';
-        $price = 100.00;
+        $price = 100;
 
-        $result = $contractRepository->updateContract(
-            $id,
+        $result = $contractRepository->insertContract(
             $vehicule_uid,
             $customer_uid,
             $sign_date,
@@ -54,14 +52,14 @@ final class ContractServiceTest extends TestCase
     public function testUpdateContract(): void
     {
         $contractRepository = new ContractRepository();
-        $id = 3;
+        $id = 8;
         $vehicule_uid = 'TEST001';
         $customer_uid = 'CUST001';
         $sign_date = '2023-06-01';
         $loc_begin_date = '2023-06-02';
         $loc_end_date = '2023-06-10';
         $returning_date = '2023-06-09';
-        $price = 100.00;
+        $price = 100;
 
         $result = $contractRepository->updateContract(
             $id,
