@@ -13,7 +13,7 @@ class CustomerService
         $this->customer = new CustomerRepository();
     }
 
-    public function find(int $email): ?Customer
+    public function find(string $email): ?Customer
     {
         $customer = $this->customer->findByEmail($email);
         if (!$customer) {
