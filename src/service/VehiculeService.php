@@ -21,6 +21,11 @@ class VehiculeService
         }
         return $vehicule;
     }
+    public function findAll(): array
+    {
+        $vehicule = $this->vehicule->findAll();
+        return $vehicule;
+    }
     public function findByLicencePlate(string $licencePlate): ?Vehicule
     {
         $vehicule = $this->vehicule->findByLicencePlate($licencePlate);

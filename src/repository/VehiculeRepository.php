@@ -33,6 +33,12 @@ class VehiculeRepository
         return $result;
     }
 
+    public function findAll(): array
+    {
+        $result = $this->collection->find()->toArray();
+        return $result;
+    }
+
     public function findByLicencePlate(string $licencePlate): Vehicule|null
     {
         $result = $this->collection->findOne(['licence_plate' => $licencePlate]);
